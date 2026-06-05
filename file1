@@ -1,0 +1,17 @@
+ 521  touch filenew
+  522  git status
+  523  git add .
+  524  git commit -m "filenew created"
+  525  git merge feature2
+  526  git push -u origin main
+  527  git pull https://github.com/rnischala12-cloud/Devops.git
+  528  git checkout -b feature3
+  529  touch file4
+  530  git add .
+  531  git commit -m "file4 created"
+  532  git checkout main
+  533  touch file5
+  534  git add .
+  535  git commit -m "file4 created"
+  536  git rebase feature3
+  537  git push -u origin main
