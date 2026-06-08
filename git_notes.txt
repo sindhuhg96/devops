@@ -1,0 +1,12 @@
+git config --global user.name "Your Name"
+git config --global user.email "sindhuhg96@gmail.com"
+
+git remote set-url origin https://<TOKEN>@github.com/kubra179/Linux.git
+git push -u origin main
+
+git clone
+git status
+git add .
+git commit -m " "
+git push -u origin main
+git clone <url of the>
